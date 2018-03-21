@@ -1001,6 +1001,11 @@
             return false;
         }
 
+
+        /// <summary>
+        /// http://tech.sanwasystem.com/entry/2015/11/25/171004　様より
+        /// </summary>
+        
         // 指定したウィンドウの全ての子孫ウィンドウを取得し、リストに追加する
         private static List<WindowData> GetAllChildWindows(WindowData parent, List<WindowData> dest)
         {
@@ -1039,6 +1044,9 @@
         }
     }
 
+    /// <summary>
+    /// http://tech.sanwasystem.com/entry/2015/11/25/171004 様より
+    /// </summary>
     public class WindowData
     {
         public string ClassName { get; set; }
